@@ -1,0 +1,29 @@
+.ProgressBar {
+    position: relative;
+    width: 33%;
+    text-align: center;
+    background-color: rgba(160, 160, 160, 0.5);
+}
+
+.bar {
+    height: 100%;
+    position: absolute;
+    margin-top: 0;
+    padding-top: 0;
+    float: left;
+}
+
+.bar.hp {
+    background: red;
+}
+.bar.en {
+    background: dodgerblue;
+}
+.bar.xp {
+    background: yellowgreen;
+}
+
+.pbSpan {
+    position: relative;
+    text-align: center;
+}

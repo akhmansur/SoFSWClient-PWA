@@ -1,0 +1,26 @@
+.input {
+    background: none;
+    border: none;
+    border-bottom: 2px solid #000;
+    width: 85%;
+    padding: 2px;
+}
+.input:focus {
+    outline: none;
+    border-bottom: 2px solid #fff;
+}
+.bottom-group {
+    padding: 10px
+}
+.button-send {
+    margin-left: 5px;
+    background: none;
+    width: 10%;
+    height: 100%;
+    border: none;
+    font-size: 18px;
+}
+.log {
+    color: black;
+    padding: 0
+}

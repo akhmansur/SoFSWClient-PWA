@@ -1,0 +1,55 @@
+.Game {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.bars {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nick {
+    width: 50%;
+    text-align: left;
+}
+
+.GameText {
+    width: 100%;
+    color: black;
+    text-align: left;
+    font-family: 'EB Garamond', serif;
+
+}
+
+.buttons {
+    display: block;
+}
+
+.button {
+    margin: 5px;
+    text-align: left;
+    border: none;
+    font-size: 18px;
+    font-family: 'EB Garamond', serif;
+    padding: 5px;
+    box-shadow: 1px 1px 2px black;
+    background-color: gray;
+}
+
+.loader {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(max-width: 800px) {
+    .buttons {
+        display: flex;
+        flex-direction: column;
+    }
+}

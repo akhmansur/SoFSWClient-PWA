@@ -1,0 +1,10 @@
+.Map {
+    width: 99%;
+    height: 30%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 5px 0 0;
+    margin-top: 15px;
+}

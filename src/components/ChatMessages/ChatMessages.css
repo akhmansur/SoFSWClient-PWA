@@ -1,0 +1,38 @@
+.menu {
+    position: absolute;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border: 2px solid #333;
+    box-shadow: 2px 2px 2px #222;
+}
+
+.menu-item {
+    padding: 10px;
+}
+
+.menu-item-last {
+    padding: 10px;
+    box-shadow: none;
+}
+
+.fields {
+    font-size: 12px;
+    color: black;
+    padding: 0;
+    padding-left: 5px;
+    margin-bottom:0;
+
+}
+
+.bottom-group {
+    padding: 10px;
+}
+
+.button-send {
+    margin-left: 5px;
+    background: none;
+    width: 10%;
+    border: none;
+    font-size: 18px;
+}

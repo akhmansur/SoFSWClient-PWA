@@ -1,0 +1,40 @@
+.roomButton {
+    font-size: 18px;
+    color: #333;
+    background: none;
+    border: none;
+    text-align: left;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    margin-left: 20px;
+    box-shadow: -1px 0 0 0 gray;
+}
+
+.roomButton.active {
+    box-shadow: -1px 0 0 0 red;
+    color: #000;
+}
+.title {
+    color: black;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+.chrooms {
+    position: relative;
+    background-color: rgba(150,150,150, 0.4);
+    overflow: hidden;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-size: cover;
+    padding: 0 0 15px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 40%;
+    height: 100%;
+}
+
+.roomName {
+}
+
