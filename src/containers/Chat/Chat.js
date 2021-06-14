@@ -35,10 +35,12 @@ const Chat = ({screenType}) => {
           <ChatRooms rooms={chrooms} roomDes={chroomdes}/>
           {chRoom}
         </>
-        : {chRoom}
+        : <>
+          {chRoom}
+          </>
       }
     </div>
   )
-}
+};
 
 export default Chat;

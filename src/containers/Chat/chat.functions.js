@@ -4,7 +4,6 @@ import {sendCom} from "../../axios/axios-sof";
 import {capitalize} from "../../Utils";
 
 
-
 export function convertUnicode(input) {
   return input.replace(/\\u[0-9a-fA-F]{4}/g, function (a, b) {
     var charcode = parseInt(b, 16);
@@ -26,22 +25,27 @@ export function getRoomsDes(dispatch, roomDes) {
     </p>
   )
 }
+
 export function getRooms(rooms, roomdes) {
   if (rooms)
-    return rooms.map((elem, index) => {
-      return <p
+    return (
+      <>
+        { rooms.map((elem, index) => {
+        return <p
         className='message'
         alt={elem.des._text}
-        key={index}
+        key={'chroom' + index}
         onClick={() => {
-          sendCom('chatmess !chroom! ' + elem.num._text)
-          sendCom('chatmess !chroom? descr')
-        }
-        }
-      >
-        {capitalize(elem.name._text) + ' (' + elem.incount._text + ' чел.)'}
+        sendCom('chatmess !chroom! ' + elem.num._text)
+        sendCom('chatmess !chroom? descr')
+      }
+      }
+        >
+      {capitalize(elem.name._text) + ' (' + elem.incount._text + ' чел.)'}
         <br/>
-        {elem.des._text}
-      </p>
-    })
+      {elem.des._text}
+        </p>
+      }) }
+      </>
+    )
 }

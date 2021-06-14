@@ -1,11 +1,10 @@
-import React, {useState} from 'react';
+import React from 'react';
 import CustomScrollbar from "../../components/CustomScrollbar/CustomScrollbar";
 import {useSelector} from "react-redux";
 import './Commands.css'
 import {sendCom} from "../../axios/axios-sof";
 
 const Commands = () => {
-  const [showSettings, setShowSettings] = useState(0)
   const {comms, settings} = useSelector((state) => state.comms);
   return (
     <CustomScrollbar >
