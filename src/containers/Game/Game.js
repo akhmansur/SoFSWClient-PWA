@@ -7,13 +7,7 @@ import {useDispatch, useSelector} from "react-redux";
 import {sendCom} from "../../axios/axios-sof";
 import {fetchGameStart} from "../../store/actions/game";
 import {addLog} from "../../store/actions/console";
-import GoogleLogin from 'react-google-login';
-// or
 
-
-const responseGoogle = (response) => {
-  console.log(response);
-}
 function myEqual(first, second) {
   return JSON.stringify(first.gmData) === JSON.stringify(second.gmData)
 }
@@ -69,13 +63,6 @@ const GameView = React.memo(() => {
             </div>
           </div>
           : tl ? getContent(dispatch, data, sendCmd) : ''}
-        {/*<GoogleLogin*/}
-        {/*  clientId="658977310896-knrl3gka66fldh83dao2rhgbblmd4un9.apps.googleusercontent.com"*/}
-        {/*  buttonText="Login"*/}
-        {/*  onSuccess={responseGoogle}*/}
-        {/*  onFailure={responseGoogle}*/}
-        {/*  cookiePolicy={'single_host_origin'}*/}
-        {/*/>*/}
       </div>
     </React.Fragment>
   )
@@ -134,6 +121,6 @@ function getContent(dispatch, data, sendCom) {
     )
   }
 return content
-};
+}
 
 export default GameView;

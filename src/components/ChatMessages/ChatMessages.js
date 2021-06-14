@@ -47,28 +47,37 @@ const ChatMessages = ({chat}) => {
             setShowMenu(false)
             setFields([fields[0], fields[0], false])
             setShowField(true)
-          }}>
+            }}
+            key={'tonick'}
+          >
             📌 Ник в сообщение
           </div>
-          <div className="menu-item" onClick={() => {
-            setShowMenu(false)
-            setFields([fields[0], 'Приватно ' + fields[0], true])
-            setShowField(true)
-          }}>
+          <div className="menu-item" onClick={
+            () => {
+              setShowMenu(false)
+              setFields([fields[0], 'Приватно ' + fields[0], true])
+              setShowField(true)
+            }}
+              key={'privmess'}
+          >
             📧 Приватное сообщение
           </div>
           <div className="menu-item" onClick={() => {
             setShowMenu(false)
             sendCom('05 ' + fields[0])
             setShowField(true)
-          }}>
+          }}
+               key={'persinfo'}
+          >
             👤 Информация о персонаже
           </div>
           <div className="menu-item" onClick={() => {
             setShowMenu(false)
             sendCom('chatmess !chroom? ulist')
             setShowField(true)
-          }}>
+          }}
+               key={'ulist'}
+          >
             🔍 Кто здесь?
           </div>
           <div className="menu-item-last" onClick={() => {

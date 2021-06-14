@@ -1,0 +1,39 @@
+<changelist name="unnamed" date="1623659412289" recycled="false">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/unnamed/shelved.patch" />
+  <option name="DESCRIPTION" value="" />
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="public/apple-touch-icon.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/unnamed/apple-touch-icon.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="public/favicon.ico" />
+    <option name="AFTER_PATH" value="public/favicon.ico" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/unnamed/favicon.ico" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="public/favicon-16x16.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/unnamed/favicon-16x16.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="public/favicon-32x32.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/unnamed/favicon-32x32.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="public/logo192.png" />
+    <option name="AFTER_PATH" value="public/logo192.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/unnamed/logo192.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="public/logo512.png" />
+    <option name="AFTER_PATH" value="public/logo512.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/unnamed/logo512.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="public/mstile-150x150.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/unnamed/mstile-150x150.png" />
+  </binary>
+</changelist>
